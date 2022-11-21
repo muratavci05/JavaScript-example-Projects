@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kredi Hesaplama Formu|</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container py-3">
+        <h3>Kredi Hesaplama Formu</h3>
+        <form action="#" id="formKredi">
+            <label for="txtkrediTutari">Çekmek İstediğiniz Kredi Tutarını Giriniz</label>
+            <input type="text" name="" id="txtKrediTutari" >
+            <label for="listeVade">Vade Seçiniz</label>
+            <select name="" id="listeVade">
+                <option value="12">12 Ay </option>
+                <option value="24">24 Ay </option>
+                <option value="36">36 Ay </option>
+                <option value="48">48 Ay </option>
+            </select>   
+            <input type="button" value="Kredi Geri Ödeme Şartlarını Hesapla"
+            onclick="krediHesapla()"; 
+            >
+          
+        </form>
+        <h5 id="sonuc">Sonuç:</h5>
+    </div>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <footer style="display: flex;justify-content: center; color: gray;">ReactJS - JavaScript Frontend Developer | Murat AVCI</footer>
+</body>
+</html>
