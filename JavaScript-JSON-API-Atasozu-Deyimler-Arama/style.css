@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: blue;
+    background-image: linear-gradient(315deg,blue 0%, white 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#container{
+    background-color: white;
+    width: 60rem;
+    min-width: 30vh;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.2rem 0.2rem, lightgray;
+    margin: 2rem;
+
+
+
+}
+
+#searchBox{
+    width: 30rem;
+}
+#container > *{
+    margin: 1rem;
+    padding: 1rem;
+}
+.frontendM{
+    color: rgb(168, 163, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
