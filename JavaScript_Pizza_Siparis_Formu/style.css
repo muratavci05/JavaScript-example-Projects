@@ -1,0 +1,69 @@
+
+body{
+    background-image: url(assent/pizza3.jpeg); 
+    background-repeat: no-repeat ;
+    background-position: center;
+    
+ }
+
+form{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 300px auto;
+    border: thin solid grey;
+    background-color: white;
+}
+input[type=button]{
+    grid-column: 1/3;
+
+}
+input[type=text]{
+    max-width: 100px;
+    margin: 2.5px;
+}
+select{
+    max-width: 150px;
+    margin: 2.5px;
+}
+
+h3,h5{
+    text-align: center;
+}
+
+.title{
+    background: url(assent/pizza1.webp) no-repeat right center,url(assent/pizza1.webp);
+    display: block;
+    width: 80%;
+    color: white;
+    padding: 25px 0;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size:30px;
+    border-bottom: 3px solid rgb(242, 230, 230);
+}
+
+form>label{
+    border-right: thin solid grey;
+    border-bottom: thin solid grey;
+}
+
+form#formPizza>span{
+    border-top: thin solid grey;
+    border-bottom: thin solid grey;
+    padding: 18px;
+    display: grid;
+    grid-template-columns: repeat(6,85px);
+    grid-template-rows: repeat(4,20px);
+
+}
+
+#btnCalculate{
+    padding: 15px;
+    color: blue;
+}
+#btnCalculate:hover{
+    background-color: rgb(190, 147, 147);
+    cursor: pointer;
+    color: white;
+}

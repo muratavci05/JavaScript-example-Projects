@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Sipariş Formu APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="title">PİZZA SİPARİŞ FORMU</h3>
+    <form action="" id="formPizza">
+        <label for="sizePizza">Pizza Boyutunu Seçiniz:</label>
+        <select name="" id="sizePizza" size="4">
+            <option value="50">Küçük Boy</option>
+            <option value="70">Orta Boy</option>
+            <option value="90">Büyük Boy</option>
+            <option value="110">Double Boy</option>
+
+        </select>
+        <label for="addition">Ek Malzeme Seçiniz:</label>
+        <span>
+            <label for="addition1">Yeşil Zeytin</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition1" value="Yeşil Zeytin">
+            <label for="addition2">Siyah Zeytin</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition2" value="Siyah Zeytin">
+            <label for="addition3">Pastırma</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition3" value="Pastırma">
+            <label for="addition4">Sucuk</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition4" value="Sucuk">
+            <label for="addition5">Sosis</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition5" value="Sosis">
+            <label for="addition6">Mantar</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition6" value="Mantar">
+            <label for="addition7">Ranch Sos</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition7" value="Ranch Sos">
+            <label for="addition8">Barbekü Sos</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition8" value="Barbekü Sos">
+            <label for="addition9">Soğan Halkası</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition9" value="Soğan Halkası">
+            <label for="addition10">Jambon</label>
+            <input type="checkbox"name="groupExtraIngredients" id="addition10" value="Jambon">
+        </span>
+        <label for="addedIngredients">Seçtiğimiz Ek Malzemeler</label>
+        <select name="" id="addedIngredients" size="10">
+
+        </select>
+        
+        <label for="grupDiscount">İndirim Kodu Giriniz</label>
+    
+        <span class="radioBtn">
+            <label for="codeTrue">İndirim Kodum Var</label>
+            <input type="radio"name="groupDiscount" id="codeTrue" value="Active" onchange="toogle()">
+            <label for="codeFalse">İndirim Kodum Yok</label>
+            <input type="radio"name="groupDiscount" id="codeFalse" value="Passive" onchange="toogle();" checked>
+          
+        </span>
+        
+        <label for="discountCode">İndirim Kodu Giriniz:</label>
+        <input type="text" name="" id="discountCode" disabled >
+        <input type="button" value="calculate | Verify" id="btnCalculate" onclick="pizzaCalculate();">
+
+    </form>
+    <h5 id="result" style="color: white; font-size: 20px;background-color:black; width:80%;margin: auto;margin-bottom: 10px;"></h5>
+    <h5 id="verifyForm" style="color:red; font-size: 20px; background-color: black;width:80%;margin: auto;margin-bottom: 15px;"></h5>
+    
+    <script src="script.js"></script>
+</body>
+</html>
