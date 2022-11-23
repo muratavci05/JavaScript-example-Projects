@@ -8,3 +8,4 @@
 #### [5. Taş Kağıt Makas Oyunu Uygulaması](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/javaScript-tas-kagit-makas-oyunu)
 #### [6. Urun Sipariş Formu](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/Urun-siparis-formu)
 #### [7. Pizza Sipariş Form Uygulaması](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript_Pizza_Siparis_Formu)
+#### [8. JSON-API_Atasözü & Deyimler arama Uygulaması](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript-JSON-API-Atasozu-Deyimler-Arama)
