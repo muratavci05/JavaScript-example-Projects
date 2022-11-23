@@ -1,0 +1,9 @@
+{
+  "messages": [
+    {
+      "id": "1",
+      "sendMessage": "muratAvci",
+      "messageContent": "Merhaba JSON"
+    }
+  ]
+}

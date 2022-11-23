@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-blue-500 h-screen flex flex-row items-center justify-center">
+    <form action="" id="contact" class="flex flex-col items-center w-6/12 h-auto bg-cyan-100 rounded-xl">
+        <label for="fullName">FirsName-LastName Entry:</label>
+        <input type="text" id="fullName" class="form-input w-1/2">
+        <label for="message" >Write Your Message:</label>
+        <textarea  id="message" cols="30" rows="10" class="form-textarea w-1/2" ></textarea>
+        <input type="submit" value="Send Server" id="btnSend" class="btn bg-red-400">
+    </form>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

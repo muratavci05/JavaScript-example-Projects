@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    @apply p-2 m-5 text-white bg-red-400 rounded hover:bg-red-900 font-myProjectFont-poppins;
+}
