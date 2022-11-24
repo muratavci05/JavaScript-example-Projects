@@ -17,8 +17,8 @@
                                                 ## Short Descriptions - Kısa Açıklamalar
                                                 
 #### [1. Kredi Hesaplama Formu - Loan Calculation Form App]
-#### HTML,
-#### CSS,
-#### JavaScript,Bu projede;
+#### [HTML]
+#### [CSS]
+#### [JavaScript,Bu projede;]
 JavaScript "değişkenler, if else yapısı" üzerine algoritmik çözüm oluşturularak kodlama yapılmıştır.
     
