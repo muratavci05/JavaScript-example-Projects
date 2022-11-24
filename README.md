@@ -12,8 +12,10 @@
 #### [9. Basit Hesap Makinesi Uygulaması](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript-Build-simple-Calculator)
 #### [10. JSON - GRUD İşlemleri](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript-JSON_CrudAPP)
 
-
-##Short Descriptions - Kısa Açıklamalar
+-----------------------------------------------------------------------------------------------------------------------------------------------
+                                                
+                                                ## Short Descriptions - Kısa Açıklamalar
+                                                
 #### [1. Kredi Hesaplama Formu - Loan Calculation Form App]
 ** HTML
 ** CSS
