@@ -11,3 +11,12 @@
 #### [8. JSON-API_Atasözü & Deyimler arama Uygulaması](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript-JSON-API-Atasozu-Deyimler-Arama)
 #### [9. Basit Hesap Makinesi Uygulaması](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript-Build-simple-Calculator)
 #### [10. JSON - GRUD İşlemleri](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript-JSON_CrudAPP)
+
+
+##Short Descriptions - Kısa Açıklamalar
+#### [1. Kredi Hesaplama Formu - Loan Calculation Form App]
+** HTML
+** CSS
+** JavaScript,Bu projede;
+JavaScript "değişkenler, if else yapısı" üzerine algoritmik çözüm oluşturularak kodlama yapılmıştır.
+    
