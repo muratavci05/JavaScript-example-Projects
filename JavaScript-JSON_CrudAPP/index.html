@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" >
+</head>
+<body class="bg-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="display-3 text-center">JSON GRUD UYGULAMASI</h3>
+            <table class="table table-dark text-center table-striped">
+                <thead>
+                    <tr>
+                        <th>İsim</th>
+                        <th>Soyİsim</th>
+                        <th>E-mail</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody id="userTable">
+                   <!--  <tr>
+                        <td><input type="text" class="form-control" id="" value=""/>
+                        <td><input type="text" class="form-control" id="" value=""/>
+                        <td><input type="text" class="form-control" id="" value=""/>
+                        <td>
+                            <a href="" class="btn btn-warning" id="" value="">Güncelle</a>
+                            <a href="" class="btn btn-danger" id="" value="">Sil</a>
+
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <form action="" class="row">
+                <div class="col-md-3">
+                    <input 
+                    type="text" 
+                    id="first_name"
+                    placeholder="İsminizi Giriniz"
+                    class="form-control"/>
+
+                </div>
+                <div class="col-md-3">
+                    <input 
+                    type="text" 
+                    id="last_name"
+                    placeholder="Soyisminizi Giriniz"
+                    class="form-control"/>
+
+                </div>
+                <div class="col-md-3">
+                    <input 
+                    type="text" 
+                    id="email"
+                    placeholder="Email'inizi Giriniz"
+                    class="form-control"/>
+
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="#" class="btn btn-success" onclick="createUser()"  >Kullanıcı Oluştur</a>
+
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
