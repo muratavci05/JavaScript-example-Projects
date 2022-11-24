@@ -10,3 +10,4 @@
 #### [7. Pizza Sipariş Form Uygulaması](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript_Pizza_Siparis_Formu)
 #### [8. JSON-API_Atasözü & Deyimler arama Uygulaması](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript-JSON-API-Atasozu-Deyimler-Arama)
 #### [9. Basit Hesap Makinesi Uygulaması](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript-Build-simple-Calculator)
+#### [10. JSON - GRUD İşlemleri](https://github.com/muratavci05/JavaScript-example-Projects/tree/master/JavaScript-JSON_CrudAPP)
